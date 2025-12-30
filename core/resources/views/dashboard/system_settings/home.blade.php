@@ -130,14 +130,14 @@
                                    onclick="clicked_tab('debugMode')">
                                     &nbsp; {!!  __('backend.debugMode') !!}</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link block {{  ( Session::get('active_tab') == 'systemUpdate') ? 'active' : '' }}"
                                    href="#"
                                    id="systemUpdateLink"
                                    data-toggle="tab" data-target="#tab-13"
                                    onclick="clicked_tab('systemUpdate')">
                                     &nbsp; {!!  __('backend.systemUpdate') !!}</a>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
                 </div>
